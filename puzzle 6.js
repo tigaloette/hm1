@@ -2,23 +2,23 @@ right
 
 Var LastDirection = GetColor
 
-if (getColor == "red") {
+If (getColor == "red") {
   up
   up
   up
-} else {
+} Else {
   down
   down
   down
   
-if (getColor == "red") {
+If (getColor == "red") {
   left
-} else {
+} Else {
   right
   
 SetColor (LastDirection)
 
-if (getColor == "red") {
+If (getColor == "red") {
   up
-} else {
+} Else {
   down
