@@ -1,14 +1,14 @@
-var count=0
-while (count < 7）{
-  down
+Var count=0
+While (count < 7）{
+  Down
   count = couont + 1
 }
-right
-right
-right
-right
-right
-up
-up
-right
-right
+Right
+Right
+Right
+Right
+Right
+Up
+Up
+Right
+Right
