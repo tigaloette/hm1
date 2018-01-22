@@ -1,11 +1,11 @@
 Right
 Right
 
-while (getColor == "blue") {
+While (getColor == "blue") {
   Down
   Right
   Right
-} else {
+} Else {
   Up
   Right
   Right
