@@ -1,34 +1,34 @@
-While (getColor != "red") {
+While (getColor ! = "red") {
   down
-} else {
+} Else {
   right
   right
 }
 
 While (getColor != "red") {
   up
-} else {
+} Else {
   right
   right
 }
 
 While (getColor != "red") {
   down
-} else {
+} Else {
   right
   right
 }
 
 While (getColor != "red") {
   up
-} else {
+} Else {
   right
   right
 }
 
 While (getColor != "red") {
   down
-} else {
+} Else {
   right
   right
 }
