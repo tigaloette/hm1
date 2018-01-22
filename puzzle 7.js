@@ -1,4 +1,4 @@
-While (getColor ! = "red") {
+While (getColor != "red") {
   down
 } Else {
   right
