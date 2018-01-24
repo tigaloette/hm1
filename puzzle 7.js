@@ -1,36 +1,24 @@
-While (getColor != "red") {
-  down
-} Else {
-  right
-  right
+
+function MoveDown() {
+while (getColor() != "red") {
+  down()
+  }
+  right()
+  right()
 }
 
-While (getColor != "red") {
-  up
-} Else {
-  right
-  right
+
+function MoveUp() {
+while (getColor() != "red") {
+  up()
+  }
+  right()
+  right()
 }
 
-While (getColor != "red") {
-  down
-} Else {
-  right
-  right
-}
 
-While (getColor != "red") {
-  up
-} Else {
-  right
-  right
-}
-
-While (getColor != "red") {
-  down
-} Else {
-  right
-  right
-}
-
-right
+MoveDown()
+MoveUp()
+MoveDown()
+MoveUp()
+MoveDown()
