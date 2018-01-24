@@ -1,24 +1,27 @@
-right
+right()
 
-Var LastDirection = GetColor
+var LastDirection = getColor()
 
-If (getColor == "red") {
-  up
-  up
-  up
-} Else {
-  down
-  down
-  down
+if (getColor == "red") {
+  up()
+  up()
+  up()
+} else {
+  down()
+  down()
+  down()
+}
+
+if (getColor == "red") {
+  left()
+} else {
+  right()
+}
   
-If (getColor == "red") {
-  left
-} Else {
-  right
-  
-SetColor (LastDirection)
+setColor (LastDirection)
 
-If (getColor == "red") {
-  up
-} Else {
-  down
+if (getColor == "red") {
+  up()
+} else {
+  down()
+  }
