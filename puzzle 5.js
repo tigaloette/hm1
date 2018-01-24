@@ -1,14 +1,20 @@
-Right
-Right
+right()
+right()
 
-While (getColor == "blue") {
-  Down
-  Right
-  Right
-} Else {
-  Up
-  Right
-  Right
+function color(){
+  
+  if (getColor() == "blue") {
+  down()
+  right()
+  right()
+} else {
+  up()
+  right()
+  right()
+}
 }
 
-Right
+color()
+color()
+color()
+right()
