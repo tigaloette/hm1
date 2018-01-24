@@ -1,32 +1,32 @@
-down
-down
-right
-right
+down()
+down()
+right()
+right()
 
-Var count = 0
-While ( count != 5){
-  set color (rainbow)
-  right
+var count = 0
+while ( count != 5){
+  setColor ("red")
+  right()
   count = count + 1
 }
 
-Var count = 0
-While ( count != 2){
-  set color (rainbow)
-  down
+var count = 0
+while ( count != 2){
+  setColor ("red")
+  down()
   count = count + 1
 }
 
-Var count = 0
-While ( count != 4){
-  set color (rainbow)
-  left
+var count = 0
+while ( count != 5){
+  setColor ("red")
+  left()
   count = count + 1
 }
 
-Var count = 0
-While ( count != 2){
-  set color (rainbow)
-  up
+var count = 0
+while ( count != 2){
+  setColor ("red")
+  up()
   count = count + 1
 }
