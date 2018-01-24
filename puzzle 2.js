@@ -1,13 +1,14 @@
-Function Repeat (direction, n){
-  Var count = 0
-  While ( count < n)
-  direction
+function repeat (direction, n){
+  var count = 0 
+  while ( count < n){
+  direction ()
   count = count + 1
 }
+  }
 
-Repeat (down, 6）
-Repeat (right, 3)
-Repeat (up, 2)
-Repeat (right, 2)
-Repeat (down, 1)
-Repeat (down, 2)
+repeat (down, 6)
+repeat (right, 3)
+repeat (up, 2)
+repeat (right, 2)
+repeat (down, 1)
+repeat (down, 2)
