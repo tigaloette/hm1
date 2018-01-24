@@ -1,13 +1,13 @@
-Var count = 0
+var count = 0
 While (count < 7 ）{
   down
   count = couont + 1
 }
 right
-eight
-eight
-eight
-eight
+right
+right
+right
+right
 up
 up
 right
