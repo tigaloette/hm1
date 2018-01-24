@@ -1,27 +1,27 @@
-Function Repeat (direction, n){
-  Var count = 0
-  While ( count < n)
-  direction
-  count = count + 1
+function repeat (direction, n){
+  var count = 0
+  while ( count < n){
+  direction ()
+  count = count + 1}
 }
 
-Repeat (down, 4
-Repeat (right, 1）
+repeat (down, 4)
+repeat (right, 1)
 
-Var gaaaaaaaate = GetColor
+var gaaaaaaaate = getColor()
 
-Repeat (down, 1）
+repeat (down, 1)
 
-SetColor (gaaaaaaaate)
+setColor (gaaaaaaaate)
 
-Repeat (right, 2）
-Repeat (up, 1）
-Repeat (right, 1）
+repeat (right, 2)
+repeat (up, 1)
+repeat (right, 1)
 
-Var gaaaaaaaate = GetColor
+var gaaaaaaaate = getColor()
 
-Repeat (down, 1）
+repeat (down, 1)
 
-SetColor (gaaaaaaaate)
+setColor (gaaaaaaaate)
 
-Repeat (right, 2）
+repeat (right, 2)
